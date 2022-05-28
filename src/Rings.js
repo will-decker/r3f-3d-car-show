@@ -16,9 +16,9 @@ export function Rings() {
       mesh.scale.set(1 - dist * 0.04, 1 - dist * 0.04, 1 - dist * 0.04);
 
       if (i % 2 === 1) {
-        mesh.material.emissive = new Color(6, 0.15, 0.7).multiplyScalar(0.5);
+        mesh.material.emissive = new Color(6, 0.15, 0.7).multiplyScalar(0.7);
       } else {
-        mesh.material.emissive = new Color(0.1, 0.15, 0.7).multiplyScalar(0.5);
+        mesh.material.emissive = new Color(0.1, 0.7, 3).multiplyScalar(0.7);
       }
     }
   });
