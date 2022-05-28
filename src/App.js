@@ -10,6 +10,7 @@ import {
 import { Ground } from './Ground';
 import { Car } from './Car';
 import { Rings } from './Rings';
+import { Boxes } from './Boxes';
 
 function CarShow() {
   return (
@@ -31,6 +32,7 @@ function CarShow() {
       </CubeCamera>
 
       <Rings />
+      <Boxes />
 
       {/*
       Three.js:
