@@ -11,6 +11,7 @@ import { Ground } from './Ground';
 import { Car } from './Car';
 import { Rings } from './Rings';
 import { Boxes } from './Boxes';
+import { FloatingGrid } from './FloatingGrid';
 import {
   Bloom,
   ChromaticAberration,
@@ -39,6 +40,7 @@ function CarShow() {
 
       <Rings />
       <Boxes />
+      <FloatingGrid />
 
       {/*
       Three.js:
